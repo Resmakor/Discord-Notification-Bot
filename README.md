@@ -2,9 +2,10 @@
 
 ## Description
 
-"Twitch Enjoyer" is a Discord Bot using Twitch API to send notifications, when some streamers started/stopped streaming. 
+"Twitch Enjoyer" is a Discord Bot (made in Python) using Twitch API to send notifications, when some streamers started/stopped streaming. 
 
-
+## File "requirements.txt"
+File "requirements.txt" is a list with the libraries needed for the bot to work.
 
 ## File "Twitch_enjoyer.py"
 At the beginning there is the initialization of the Discord bot with environment variables, prefix to cause commands, text channel's id and some intents to make it all work.
@@ -86,3 +87,12 @@ async def streamers(ctx):
 
 ![alt text](https://github.com/Resmakor/Twitch_Enjoyer_Public/blob/main/snippets/How_it_works_2.png?raw=true)
 
+#
+## File "icon_detection.py"
+File "icon_detection.py" includes only 1 function:
+```python
+def link(nickname):
+```
+I used it to detect link to streamer's avatar without Twitch API, just web scraping (similar idea to YouTube video's url regular expression). 
+
+Result of this program depends on the size of the uploaded photo. I could improve this, however when I have access to Twitch API it is unnecessary. I added this file just as trivia ;).
