@@ -83,9 +83,9 @@ changes ```channelNames``` values from ```False``` to ```True``` and vice versa,
 @client.command()
 async def streamers(ctx):
 ```
-- Function ```streamers``` sends list of keys in ```channelNames```.
+- Command ```streamers``` sends list of keys in ```channelNames```.
 
-![alt text](https://github.com/Resmakor/Discord-Notification-Bot/blob/main/snippets/How_it_works_2.png?raw=true)
+![alt text](https://github.com/Resmakor/Discord-Notification-Bot/blob/main/snippets/How_it_works_2_a.png?raw=true)
 
 #
 ## File "icon_detection.py"
